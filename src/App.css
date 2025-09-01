@@ -32,8 +32,12 @@ header ul li{
     @apply absolute left-0 right-0 bottom-0  top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
 }
 
-.btn{
-    @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+
+.btn-download{
+    @apply px-5 py-2 font-bold bg-green-500 hover:bg-green-600 hover:border-2 border-white rounded;
+}
+.btn-view{
+    @apply px-5 py-2 font-bold bg-blue-500 hover:bg-blue-600 hover:border-2 border-white rounded;
 }
 
 html{

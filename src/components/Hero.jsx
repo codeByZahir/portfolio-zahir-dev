@@ -11,7 +11,7 @@ export default function Hero(){
          }
     }
 
-    return <section className='flex flex-col md:flex-row justify-center px-5 py-32 bg-primary'>
+    return <section id='hero' className='flex flex-col md:flex-row justify-center px-5 py-32 bg-primary'>
         <div className='md:w-1/2 flex flex-col'>
             <h1 className='text-6xl font-sri text-white'>Hi, <br/>I'm <span className='text-amber-300'>Zahir</span> Mohamed
               <p className='text-2xl pt-5'>{config.subtitle}</p>
